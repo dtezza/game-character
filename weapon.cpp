@@ -10,10 +10,13 @@ Weapon::Weapon(int attackPoints)
     this->attackPoints = attackPoints;
 }
 
-void Weapon::setAttack(int attackPoints)
+//Mutator/set method 
+void Weapon::setAttack(int attack)
 {
-    this->attackPoints = attackPoints;
+    attackPoints = attack;
 }
+
+//Accessor/get method
 int Weapon::getAttack()
 {
     return attackPoints;

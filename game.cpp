@@ -7,16 +7,19 @@ int main()
 {
     GameCharacter knight;
 
+    //Set base stats
     knight.setHealth(1000);
     knight.setAttack(2500);
     knight.setDefense(1500);
 
+    //Set equipment stats
     knight.setArmor(250,150);
     knight.setBoot(140,100);
     knight.setGloves(100,70);
     knight.setHelmet(120,80);
     knight.setPants(160,120);
 
+    //Set weapon
     knight.setWeapon(860);
 
     cout <<endl;
